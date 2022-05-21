@@ -25,33 +25,17 @@
       <scope>test</scope>
     </dependency>
 
-<!-- Dependência para fazer o Senium funcionar no Chrome -->
-<dependency>
-  <groupId>org.seleniumhq.selenium</groupId>
-  <artifactId>selenium-chrome-driver</artifactId>
-  <version>3.141.59</version>
-  <scope>test</scope>
-</dependency>
-
-<!-- Dependência de ferramentas de suporte para selenium -->
-<dependency>
-  <groupId>org.seleniumhq.selenium</groupId>
-  <artifactId>selenium-support</artifactId>
-  <version>3.141.59</version>
-  <scope>test</scope>
-</dependency>
-
-  
-    <dependency>
-      <groupId>org.seleniumhq.selenium</groupId>
-      <artifactId>selenium-chrome-driver</artifactId>
-      <version>2.47.1</version>
-    </dependency>
-
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>selenium-remote-driver</artifactId>
-    <version>2.48.1</version>
+    <artifactId>selenium-chrome-driver</artifactId>
+    <version>4.1.4</version>
+</dependency>
+
+<dependency>
+<groupId>org.seleniumhq.selenium</groupId>
+<artifactId>selenium-support</artifactId>
+<version>3.141.59</version>
+<scope>test</scope>
 </dependency>
     
   </dependencies>
