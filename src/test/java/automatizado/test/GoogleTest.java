@@ -2,13 +2,22 @@ package automatizado.test;
 
 import static org.junit.Assert.assertTrue;
 
+import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 
+import automatizado.page.GooglePO;
+
 
 public class GoogleTest extends BaseTest { //Tudo que estiver em BaseTest será acessivel pelo GoogleTest
+
+    private static GooglePO googlePage;
+    @BeforeClass
+    public static void prepararTestes(){
+        googlePage = new GooglePO(driver);
+    }
 
     @Test //Indica que é um caso de teste
     public void devePesquisarNoGoogle(){ //Criando um metodo 
