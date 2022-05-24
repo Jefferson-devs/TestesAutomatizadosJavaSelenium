@@ -37,7 +37,4 @@ public class GooglePO extends BasePO {
     public String obterResultadoDaPesquisa(){
         return divResultadoPesquisa.getText();
     }
-    
-
-
 }
