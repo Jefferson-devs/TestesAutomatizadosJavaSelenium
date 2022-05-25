@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public abstract class BaseTest { //Encapsulamento em POO
 
     protected static WebDriver driver;  //Esse private vai saber iniciar o nosso navegador
-    private static final String URL_BASE = "https://www.google.com.br/" ;  //URL_base, site que eu quero que abra com a automação
+    private static final String URL_BASE = "file:///C:/Users/Jefferson%20Soares/Documents/Automa%C3%A7%C3%A3o%20arquivos/controle-de-produtos/sistema/login.html" ;  //URL_base, site que eu quero que abra com a automação
     private static final String CAMINHO_DRIVER = "src/test/java/automatizado/resource/chromedriver-v1010495141.exe";  //Adicionar o caminho de onde está o driver 
 
     @BeforeClass // Essa classe (metodo) vai ser chamada antes de qualquer outra classe (Antes)
@@ -20,7 +20,7 @@ public abstract class BaseTest { //Encapsulamento em POO
     } 
 
     @AfterClass //Este metodo só roda no final depois que todos os CT.s (as classes) terminar (Depois)
-    public static void finalizar() {
+    public static void finalizar(){
         driver.quit();
     }
 }
