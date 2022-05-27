@@ -26,6 +26,5 @@ public class LoginTeste extends BaseTest {
         String mensagem = loginPage.obterMensagem(); //Encapsulando a regra de obter mensagem
 
         assertEquals(mensagem, "Informe usuário e senha, os campos não podem ser brancos."); //Verifica se os objetos são iguais
-
     }
 }
