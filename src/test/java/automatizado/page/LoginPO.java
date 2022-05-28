@@ -37,4 +37,6 @@ public class LoginPO extends BasePO {
         return this.spantMensagem.getText();
     }
 
+    public void executarAcaoDeLogar(String string, String string2) {
+    }
 }
