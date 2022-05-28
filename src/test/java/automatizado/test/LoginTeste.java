@@ -21,7 +21,7 @@ public class LoginTeste extends BaseTest {
 
         loginPage.inputEmail.sendKeys("");
         loginPage.inputEmail.sendKeys("");
-
+ 
         loginPage.buttonEntrar.click();
         String mensagem = loginPage.obterMensagem(); //Encapsulando a regra de obter mensagem
 
